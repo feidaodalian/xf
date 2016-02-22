@@ -29,5 +29,7 @@ public class Stratum {
         printStratum2(5);
         System.out.println("print3==>"+printStratum3(5));
         printStratum1(5);
+
+
     }
 }
