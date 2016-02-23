@@ -8,15 +8,14 @@ public class Reverse {
        int l = orgin.length,j=l,i=l;
 
         while(l>0){
-            if(orgin[l-1] ==' '){
+            j=l-1;
+            if(orgin[l-1] ==' '||l==1){
                 for(;j<i;j++){
                     System.out.print(orgin[j]);
                 }
                 i=l;
-                j=l;
-            }else{
-                l--;j--;
             }
+            l--;
 
         }
     }
