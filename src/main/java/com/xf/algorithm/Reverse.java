@@ -2,6 +2,7 @@ package com.xf.algorithm;
 
 /**
  * Created by xufei on 2016/2/23.
+ * 字符串倒序输出
  */
 public class Reverse {
    static void doReverse(char[] orgin){
