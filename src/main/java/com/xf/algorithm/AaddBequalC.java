@@ -2,7 +2,7 @@ package com.xf.algorithm;
 
 /**
  * Created by xufei on 2016/2/23.
- * A B C 属于集合，计算出最大A+B=C
+ * A B C 属于集合，计算出最大连续A+B=C
  */
 public class AaddBequalC {
     public static void handle(int args[]){
